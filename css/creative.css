@@ -208,7 +208,7 @@ header .header-content .header-content-inner p {
     margin-bottom: 50px;
     font-size: 16px;
     font-weight: 300;
-    color: rgba(255,255,255,.7);
+    color: rgba(255,255,255,1);
 }
 
 @media(min-width:768px) {
@@ -388,6 +388,15 @@ fieldset[disabled] .btn-default.active {
     border-color: #cc1717;
     color: #fff;
     background-color: #cc1717;
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    transition: all .35s;
+}
+
+.btn-sec {
+    border-color: #cc1717;
+    color: #cc1717;
+    background-color: #FFFFFF;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
